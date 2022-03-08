@@ -1,0 +1,34 @@
+*{
+	margin: 0vh;
+	padding: 0vh;
+	box-sizing: border-box;
+}
+#nav
+{
+    background-color: #DAEFB3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vh;
+    height: 10vh;
+}
+#nav_list
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1vw;
+}
+#nav_list li
+{
+    list-style-type: none;
+    margin: 1vw;
+}
+#nav_list li a
+{
+    text-decoration: none;
+    color: #1C2826;
+}
+#home
+{
+    background-image: ;
+}
