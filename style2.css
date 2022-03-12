@@ -1,0 +1,94 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+    box-sizing: border-box;
+}
+.navbar-brand
+{
+    margin:1vh;
+    font-size: 5vh;
+}
+.navbar
+{
+    background-color: #d64550;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navbar-nav
+{
+    margin-left:8vh;
+}
+.nav
+{
+    color: whitesmoke;
+    font-size: 3vh;
+    margin: 1vh;
+    padding: 1vh;
+    text-decoration: none;
+    
+}
+.nav:hover {
+    color: whitesmoke;
+}
+.navbar li:hover
+{
+    background-color: #1c2826;
+}
+.navbar li{
+
+    display: inline-block;
+    padding: 2vh;
+    margin-right: 0.9vh;
+}
+#background
+{
+    height: 85vh; 
+    width:100%;
+    z-index:-1;
+}
+#home_menu
+{   
+    position: absolute;
+    top: 89vh;
+    left: 20%;
+    background-color: #eef4d4;
+    border-radius: 2vh;
+    height: 15%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap: 4vh;
+    padding: 5vh;
+}
+.home_list
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.home_list_breif
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home_list_breif h3
+{
+    text-align: center;
+    font-size: 90%;
+}
+.home_list_breif p
+{
+    text-align: center;
+    font-size: 60%;
+}
+.material-icons
+{
+    color: rgb(60, 167, 209);
+    font-size: 400%;
+    margin: 1vh;
+    padding: 1vh;
+}
