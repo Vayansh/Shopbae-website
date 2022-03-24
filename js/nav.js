@@ -10,7 +10,7 @@ function test(){
 	$(".hori-selector").css({
 		"top":itemPosNewAnimTop.top + "px", 
 		"left":itemPosNewAnimLeft.left + "px",
-		"height": activeWidthNewAnimHeight + "px",
+		"height": (activeWidthNewAnimHeight-15) + "px",
 		"width": activeWidthNewAnimWidth + "px"
 	});
 	$("#navbarSupportedContent").on("click","li",function(e){
@@ -23,7 +23,7 @@ function test(){
 		$(".hori-selector").css({
 			"top":itemPosNewAnimTop.top + "px", 
 			"left":itemPosNewAnimLeft.left + "px",
-			"height": activeWidthNewAnimHeight + "px",
+			"height": (activeWidthNewAnimHeight-15) + "px",
 			"width": activeWidthNewAnimWidth + "px"
 		});
 	});
