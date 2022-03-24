@@ -228,7 +228,7 @@ i {
 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background-color: #1c2826;
+    background-color: #303332;
     height:88vh;
     /* box-shadow: 0 0 5px 1px white inset; */
 }
@@ -270,7 +270,7 @@ i {
     position: absolute;
     top: 89vh;
     left: 20%;
-    background-color: #1c2826;
+    background-color: #2b3836;
     border-radius: 2vh;
     height: auto;
     width: 60%;
@@ -384,7 +384,6 @@ i {
     }      
   #about_header h1
   {
-    font-family: 'Righteous', cursive;
       text-align: center;
       font-size: 7vh;
       margin: 5vh;
@@ -450,7 +449,6 @@ i {
 }
 #wleft_top h1
 {   
-  font-family: 'Righteous', cursive;
         font-size: 7vh;
         color: #d64550;
 }
@@ -511,8 +509,7 @@ i {
 }
 #feature_head h1
 {
-  font-family: 'Righteous', cursive;
-  font-size: 7vh;
+  font-size: 6vh;
   color: whitesmoke;
 }
 #background4
@@ -607,7 +604,6 @@ i {
 }
 #faqs_header h1
 {
-  font-family: 'Righteous', cursive;
     margin: 5vh;
     font-size: 7vh;
     text-align: center;
