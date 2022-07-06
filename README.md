@@ -9,9 +9,9 @@ This is the landing page of Shopobae Website.
 ### JS
 ### BOOTSTRAP
 
-# Links To Website
-1) Website: Click_here(https://vayansh.github.io/Shopobae_website/)
-
+# Links
+1) Link to Website: [Click_here](https://vayansh.github.io/Shopobae_website/)
+2) Link to code: [Click_Here](https://github.com/Vayansh/Shopobae_website)
 
 
 
