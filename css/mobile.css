@@ -1,0 +1,245 @@
+@media (max-width: 1000px){
+.navbar-brand
+{
+    margin:1vw;
+    font-size: 4vw;
+}
+@media screen and (min-height: 700px) 
+{        
+.navbar-brand
+{
+    /* margin: 1vw; */
+    font-size: 3vw;
+}
+}
+.navbar-nav
+{
+    margin-left:2vw;
+}
+.nav
+{
+    color: whitesmoke;
+    font-size: 2vw;
+    margin: 1vw;
+    padding: 1vw;
+    text-decoration: none;
+    
+}
+.nav:hover {
+    color: whitesmoke;
+}
+.navbar li:hover
+{
+    background-color: #1c2826;
+}
+.navbar li{
+
+    display: inline-block;
+    padding: 1vw;
+    margin-right: 0.9vw;
+}
+#home_fornt
+{
+    height: 60vh;
+}
+#home_fornt div:nth-child(2)
+{
+    display: none;
+}
+#home_fornt div:nth-child(1)
+{
+    width: 125%;
+    height: 60vh;
+    border-radius: 0px 400px 400px 0px;
+    
+}
+#home_fornt div:nth-child(1) div:nth-child(2)
+{
+    display: block;
+    margin: auto;
+}
+   
+
+
+
+
+
+    #home_menu
+    {
+        padding: 1vh;
+    }  
+    #home_menu
+    {
+        position: absolute;
+        top: 60vh;
+        display: grid;
+        left: 20%;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1vh;
+        padding:1vh;
+    }
+    .home_list_breif h3
+    {
+        display: none;
+    }
+    .home_list_breif p  
+    {
+        display: none;
+    }
+    .material-icons
+    {
+        font-size: 300%;
+        padding: 0.75vh;
+    }
+    #home_end
+    {
+        width: 100%;
+        margin-top: 20vh;
+        margin-bottom: 0vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 50vh;
+
+    }
+    #home_end div:nth-child(1) h2
+    {
+        font-size: 3vh;
+        margin-left: 6vh;
+        margin-bottom: 2vh;
+    }
+    #home_end div:nth-child(2)
+    {
+        /* width: 49%; */
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vh;
+    }
+
+    #background2
+    {
+    margin-left: 0%;
+    margin-top: 15%; 
+    height: 23%;   
+    }
+    #about_header
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about_header img {
+        display: none;
+    }
+    #about
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        width: 80%;
+        margin: 10%;
+    }
+    #why_us
+    {
+        padding-top: 7vh;
+        padding-bottom: 7vh;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #why_left
+    {
+        margin: 10vh;
+        margin-bottom: 10vh;
+    }
+    #wleft_top div 
+    {
+        width: 2.5%;
+        height: 14vh;
+        margin: 2vh;
+    }
+    #wleft_top
+    {
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    #wleft_down
+    {
+        margin-top: 2vh;
+        width: 100%;
+        height: 25vh;
+        border-radius: 20px;
+    }
+    #why_right
+    {
+        width: 100%;
+        margin-left: 0%;
+        grid-gap: 0vh;
+        grid-row-gap: 3vh;
+    }
+    #feature_head
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .carousel-inner .active img
+    {
+        border-radius: 50px;
+    
+    }
+    .carousel-item img
+    {   
+        width: 60%;
+        height: 60%;
+    } */
+    #background4
+    {
+        height: 50%;
+        width: 50%;
+        margin: 2vh;
+    }
+    #feature_content
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 1vh;
+    }
+    .write-up p 
+    {
+        padding: 3vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+
+    #faqs
+    {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+    #faqs_header img
+    {
+        display: none;
+    }
+
+    .faqs_container
+    {
+        
+        width: 90%;
+    }
+    .faqs_container a div h5 {
+        text-align: center;
+    }
+    .faqs_container a div{
+        text-align: center;
+    }
+    .faqs_container a p {
+        text-align: center;
+    }
+    .faqs_container a small {
+        text-align: center;
+    }
+    
+}

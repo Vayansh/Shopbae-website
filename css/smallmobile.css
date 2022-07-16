@@ -1,0 +1,14 @@
+@media (max-width: 299px) and (max-height:800px)
+{
+    #why_right
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #wleft_down
+    {
+        height: auto;
+    }
+}
