@@ -1,13 +1,9 @@
 # Shopobae_website
 
-This is the landing page of Shopobae Website.
+This is the landing page of the Shopobae Website.
 
 # Text Tag Used
- 
-### HTML 
-### CSS
-### JS
-### BOOTSTRAP
+  HTML, CSS, Javascript, Bootstrap
 
 # Links
 1) Link to Website: [Click_here](https://vayansh.github.io/Shopobae_website/)
@@ -16,7 +12,7 @@ This is the landing page of Shopobae Website.
 
 
 # Learning
-1) Learnt How to add code Snippet taken from codepen, Bootstrap, and many more website.  
+1) Learnt How to add code Snippet from Codepen, Bootstrap, and many more websites.  
 2) Learnt How to work as a team  
 
 
